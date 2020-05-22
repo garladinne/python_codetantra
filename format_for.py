@@ -1,0 +1,6 @@
+n=int(input("Please enter an integer: "))
+print("Decimal \t Binary \t Octal \t Hexadecimal")
+b = bin(n)
+o=oct(n)
+h=hex(n)
+print("{0} \t {1} \t {2} \t {3}".format(n,b,o,h))

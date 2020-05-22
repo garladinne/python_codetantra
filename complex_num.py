@@ -1,0 +1,6 @@
+a1=complex(input("Please enter a complex number like a + bj: "))
+b2=complex(input("Please enter another complex number: "))
+print("a1 + b2 =", (a1+b2))
+print("a1 - b2 =", (a1-b2))
+print("a1 * b2 =", (a1*b2))
+print("a1 / b2 =", (a1/b2))
